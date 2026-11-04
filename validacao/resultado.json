@@ -1,0 +1,239 @@
+{
+  "aprovado": true,
+  "quantidade": 100,
+  "verificacoes": [
+    "Estado INTRO bloqueia ambos os ataques",
+    "Estado INTRO congela todo o modelo, inclusive RNG",
+    "Estado PAUSE bloqueia ambos os ataques",
+    "Estado PAUSE congela todo o modelo, inclusive RNG",
+    "Estado LEVEL bloqueia ambos os ataques",
+    "Estado LEVEL congela todo o modelo, inclusive RNG",
+    "Estado DEAD bloqueia ambos os ataques",
+    "Estado DEAD congela todo o modelo, inclusive RNG",
+    "Velocidade constante: 30 FPS, direcao (1, 0)",
+    "Velocidade constante: 30 FPS, direcao (1, 1)",
+    "Velocidade constante: 60 FPS, direcao (1, 0)",
+    "Velocidade constante: 60 FPS, direcao (1, 1)",
+    "Velocidade constante: 144 FPS, direcao (1, 0)",
+    "Velocidade constante: 144 FPS, direcao (1, 1)",
+    "Velocidade constante: 240 FPS, direcao (1, 0)",
+    "Velocidade constante: 240 FPS, direcao (1, 1)",
+    "Travada de cinco segundos limitada a 0,05 s",
+    "Intervalo negativo nao movimenta nem inverte relogio",
+    "Colisao com limites preserva o jogador no campo",
+    "Sem pressionar ataque, inimigos no alcance nao recebem dano nem surgem projeteis",
+    "Swing manual derrota alvo frontal, soma um ponto e concede XP",
+    "Swing nao acerta atras, fora do arco ou fora do alcance",
+    "Cooldown bloqueia outro swing imediato",
+    "Animacao e fim do cooldown nao causam dano por conta propria",
+    "Novo pressionamento apos o cooldown aplica outro swing",
+    "Acertar inimigo morto nao duplica o ponto nem a gema",
+    "Contato causa dano com intervalo de invulnerabilidade",
+    "Contato letal encerra a partida e limita vida a zero",
+    "Colisao varrida impede atravessamento e atinge somente o primeiro alvo",
+    "Colisao de segmento degenerado e segura",
+    "Ponto roxo acerta o protagonista e desaparece",
+    "Magia consome exatamente 16 de mana",
+    "Sem mana nao dispara nem cria projetil extra",
+    "Mana regenera por segundo",
+    "Mana regenerada respeita capacidade maxima",
+    "XP e atraido, coletado e abre escolha ao atingir o limiar",
+    "Melhoria 1 altera somente os atributos previstos",
+    "Melhoria 1 nao pode ser aplicada duas vezes",
+    "Melhoria 2 altera somente os atributos previstos",
+    "Melhoria 2 nao pode ser aplicada duas vezes",
+    "Melhoria 3 altera somente os atributos previstos",
+    "Melhoria 3 nao pode ser aplicada duas vezes",
+    "XP excedente preservado e cada nivel exige uma escolha",
+    "Pausar escolha retoma exatamente a mesma escolha",
+    "Inimigos tardios tem mais vida mesmo na variante mais fragil",
+    "Frequencia de spawn aumenta com o tempo",
+    "Chefe aparece aos 60 segundos sem duplicar no quadro seguinte",
+    "Chefe dispara leque de sete pontos roxos",
+    "Derrotar o chefe com magia soma um ponto e concede uma gema de 20 XP",
+    "Reinicio limpa inimigos, projeteis, efeitos, tempo, XP e melhorias",
+    "Versoes Python tem AST identica",
+    "Versao essencial tem no maximo 1000 linhas sem comentarios",
+    "Versao comentada tem no maximo 1000 linhas sem comentarios",
+    "Shader jogo.vert tem instrucoes identicas nas duas versoes",
+    "Shader jogo.frag tem instrucoes identicas nas duas versoes",
+    "Python e ambos os shaders juntos ficam abaixo de 1000 linhas",
+    "Runtime importa apenas bibliotecas permitidas pelo enunciado",
+    "Estrela de dano tem exatamente sete pontas alternadas com sete vales",
+    "Curva do Senhor Coracao e numericamente igual a referencia original",
+    "Contexto real OpenGL 4.0 Core e shaders compilados",
+    "Cinco VBOs e um EBO criados na inicializacao",
+    "Atributos RGBA dos quatro cantos iguais a 04_quadrado.py",
+    "Pixels da pausa sao identicos apos 15 atualizacoes",
+    "Coracao pulsa autonomamente sem entrada",
+    "Heroi parado fica sem orbita ou ataque automatico visivel",
+    "Pixels das pupilas acompanham o protagonista nos dois sentidos",
+    "Callback P pausa",
+    "Repeticao do teclado nao repete acao discreta",
+    "Callback P retoma",
+    "V alterna glfw.swap_interval entre 0 e 1",
+    "Movimento continuo consulta glfw.get_key: tecla 87",
+    "Movimento continuo consulta glfw.get_key: tecla 265",
+    "Movimento continuo consulta glfw.get_key: tecla 65",
+    "Movimento continuo consulta glfw.get_key: tecla 263",
+    "Movimento continuo consulta glfw.get_key: tecla 83",
+    "Movimento continuo consulta glfw.get_key: tecla 264",
+    "Movimento continuo consulta glfw.get_key: tecla 68",
+    "Movimento continuo consulta glfw.get_key: tecla 262",
+    "Seta e Enter confirmam melhoria selecionada",
+    "Callback 3 escolhe mana",
+    "Perder foco pausa automaticamente",
+    "Retomar descarta tempo pausado e ressincroniza relogio",
+    "Primeiro movimento apos pausa usa so os 0,01 s novos",
+    "Barra de titulo exibe FPS e estado do vsync",
+    "R reinicia na mesma janela e zera o placar",
+    "Clique e Espaco nao atacam durante a partida",
+    "X dispara uma magia e consome mana",
+    "Segurar X nao dispara de novo",
+    "Z aciona swing frontal pela callback",
+    "Segurar Z nao aplica outro golpe",
+    "Laco real com vsync True conserva 220 unidades/s",
+    "Laco real com vsync False conserva 220 unidades/s",
+    "Redimensionar preserva proporcao com margens no viewport",
+    "Conteudo de todos os VBOs e EBO permanece identico apos cenas, callbacks e reinicio",
+    "Esc encerra pela callback",
+    "Versao comentada compila shaders proprios e corresponde visualmente com tolerancia de 1/255",
+    "Partida simulada 123: combate, coleta e melhorias sem alterar atributos",
+    "Partida simulada 123: entidades e barras mantem invariantes",
+    "Partida simulada 47: combate, coleta e melhorias sem alterar atributos",
+    "Partida simulada 47: entidades e barras mantem invariantes"
+  ],
+  "metricas": {
+    "movimento": [
+      {
+        "fps": 30,
+        "direction": [
+          1,
+          0
+        ],
+        "distance": 220.00000000000114
+      },
+      {
+        "fps": 30,
+        "direction": [
+          1,
+          1
+        ],
+        "distance": 219.99999999999977
+      },
+      {
+        "fps": 60,
+        "direction": [
+          1,
+          0
+        ],
+        "distance": 219.99999999999773
+      },
+      {
+        "fps": 60,
+        "direction": [
+          1,
+          1
+        ],
+        "distance": 219.99999999999855
+      },
+      {
+        "fps": 144,
+        "direction": [
+          1,
+          0
+        ],
+        "distance": 220.00000000000728
+      },
+      {
+        "fps": 144,
+        "direction": [
+          1,
+          1
+        ],
+        "distance": 219.99999999999855
+      },
+      {
+        "fps": 240,
+        "direction": [
+          1,
+          0
+        ],
+        "distance": 219.9999999999909
+      },
+      {
+        "fps": 240,
+        "direction": [
+          1,
+          1
+        ],
+        "distance": 219.99999999999855
+      }
+    ],
+    "spawns_em_5s": [
+      5,
+      25
+    ],
+    "linhas_python_sem_comentarios": {
+      "essencial": 567,
+      "comentada": 567
+    },
+    "linhas_python_e_glsl_sem_comentarios": 590,
+    "imports_do_jogo": [
+      "glfw",
+      "moderngl",
+      "numpy"
+    ],
+    "opengl": {
+      "GL_VERSION": "4.0.0 NVIDIA 617.42",
+      "GL_RENDERER": "NVIDIA GeForce RTX 5060/PCIe/SSE2",
+      "GL_VENDOR": "NVIDIA Corporation"
+    },
+    "centros_pupila_x": [
+      528.2067307692307,
+      542.3285714285714
+    ],
+    "vsync_laco_real_janela_oculta": [
+      {
+        "vsync": true,
+        "fps_observado": 181.16804257141033,
+        "velocidade": 219.99999999999957,
+        "tempo_simulado": 0.6455426000000001
+      },
+      {
+        "vsync": false,
+        "fps_observado": 1275.851361779032,
+        "velocidade": 219.99999999999915,
+        "tempo_simulado": 0.6493943999999998
+      }
+    ],
+    "comparacao_versoes": {
+      "bytes_essencial": 2553600,
+      "bytes_comentada": 2553600,
+      "sha256_essencial": "9fa497432c181e67b7448f5b4aa076afe9e6eb09b89b475aef4b42a0cd24a1f2",
+      "sha256_comentada": "9fa497432c181e67b7448f5b4aa076afe9e6eb09b89b475aef4b42a0cd24a1f2",
+      "diferenca_maxima_canal": 0,
+      "canais_diferentes": 0
+    },
+    "partidas_simuladas_sem_alterar_atributos": [
+      {
+        "seed": 123,
+        "tempo": 68.15833333333364,
+        "estado": "DEAD",
+        "nivel": 10,
+        "vida": 0.0,
+        "chefes_vistos": 1,
+        "chefes_derrotados": 0
+      },
+      {
+        "seed": 47,
+        "tempo": 89.95833333335099,
+        "estado": "DEAD",
+        "nivel": 13,
+        "vida": 0.0,
+        "chefes_vistos": 1,
+        "chefes_derrotados": 0
+      }
+    ]
+  }
+}

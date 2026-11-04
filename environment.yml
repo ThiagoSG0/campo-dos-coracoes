@@ -1,0 +1,12 @@
+name: cgcourse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.*
+  - pip
+  - pip:
+      - glfw
+      - moderngl
+      - numpy
+      - pyglm
+      - pillow

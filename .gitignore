@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.venv/
+
+# Relatório acadêmico de entrega local
+/relatorio/
+/relatorio.md
+/versao_comentada/
+
+# Empacotamento e capturas auxiliares da pasta local
+/validacao/empacotar.py
+/validacao/gerar_comentada.py
+/validacao/comparacao_comentada.png
+/validacao/primeira_captura.png
+/validacao/comparacao_essencial.png
